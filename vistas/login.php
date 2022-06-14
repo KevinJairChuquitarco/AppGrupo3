@@ -8,6 +8,12 @@
 </head>
 <body>
     <form action="" method = "POST">
+        <?php
+            if(isset($errorLogin)){
+                echo $errorLogin;
+            }
+
+        ?>
         <h2>Inicio de Sesión</h2>
         <p>Usuario: <br>
             <input type="text" name= "username">

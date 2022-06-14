@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1>Hola mundo</h1>
+    <h2>Bienvenido <?php echo $user->getNombre(); ?> </h2>
+    <a href="index.php">Cerrar sesión</a>
 </body>
 </html>
