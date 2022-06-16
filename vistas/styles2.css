@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-image:
+    linear-gradient(
+    rgba(46, 51, 80, 0.5),
+    rgba(43, 36, 82, 0.7),
+    rgba(46, 51, 80, 0.5)
+    ),url(https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1602020393443-L6M0DGZK4C75DRNR7GZH/Title_Animation.gif?format=1000w);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.titulo{
+    font-size: 60px;
+    color:#010242;
+    font-family: "Nunito", sans-serif;
+    text-shadow:4px 4px 6px rgb(231, 231, 240)   ;
+    padding-left: 500px;
+    text-align: center;
+}
+.titulo2{
+    font-size: 40px;
+    color:#010242;
+    font-family: "Nunito", sans-serif;
+    text-shadow:4px 4px 6px rgb(231, 231, 240)   ;
+    text-align: left;
+}
+.cerrar{
+    border:1px solid #3f0439;
+    background:#9f62cd69;
+    border-radius: 1em;
+    color:#edf2f4;
+    border:#08043f 0.3em solid;
+    margin: 0;
+    border-width: 100%;
+    padding: 1em 2em;
+    font-size: 78%;
+    opacity: 1;
+    transition: transform 1s,box-shadow 0.5s,opacity 3s;
+    letter-spacing: 0.30em;
+    margin-left: 6em ;
+}
+.cerrar:hover{
+    border:#08043f 0.3em double;
+    cursor: pointer;
+    opacity: .7;
+    box-shadow: 0px 0px .5em .5em #edf2f4;
+    transform: translateX(-10em);
+}

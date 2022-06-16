@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-image:
+    linear-gradient(
+    rgba(46, 51, 80, 0.5),
+    rgba(43, 36, 82, 0.7),
+    rgba(46, 51, 80, 0.5)
+    ),url(https://images.squarespace-cdn.com/content/v1/551a19f8e4b0e8322a93850a/1602020393443-L6M0DGZK4C75DRNR7GZH/Title_Animation.gif?format=1000w);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+  }
+  
+  .login .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left bottom,
+      rgb(136, 46, 142) 0%,
+      rgba(125, 75, 141, 0.9) 80%,
+      rgba(155, 51, 196, 0.9) 100%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  .login .loginContainer p {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .login .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+    background: rgba(211, 100, 244, 0.9) 59%;
+    
+  }
+
+  .login .loginContainer .btnContainer:hover {
+    width: 100%;
+    padding: 24px 0;
+    background: rgba(128, 52, 243, 0.548);
+  }
+  .login .loginContainer h2 {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    line-height: 1;
+  }
+  
