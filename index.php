@@ -1,3 +1,8 @@
+<link rel="stylesheet" type="text/css" href="vistas/styles2.css">
+<link rel="stylesheet" type="text/css" href="vistas/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
 <?php
 
     include_once 'includes/user.php';
@@ -29,7 +34,6 @@
     }
 
 }else{
-    echo "Login";
     include_once 'vistas/login.php';
 }
 

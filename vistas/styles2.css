@@ -1,4 +1,4 @@
-body{
+.B2{
     width: 100%;
     min-height: 100vh;
     padding: 0 20px;
@@ -16,35 +16,35 @@ body{
     
 }
 
-.titulo{
+.titulo3{
     font-size: 60px;
     color:#010242;
     font-family: "Nunito", sans-serif;
     text-shadow:4px 4px 6px rgb(231, 231, 240)   ;
-    padding-left: 500px;
+    padding-left: 100px;
     text-align: center;
 }
-.titulo2{
+.titulo4{
     font-size: 40px;
     color:#010242;
     font-family: "Nunito", sans-serif;
     text-shadow:4px 4px 6px rgb(231, 231, 240)   ;
     text-align: left;
 }
+
 .cerrar{
     border:1px solid #3f0439;
     background:#9f62cd69;
     border-radius: 1em;
     color:#edf2f4;
     border:#08043f 0.3em solid;
-    margin: 0;
     border-width: 100%;
     padding: 1em 2em;
     font-size: 78%;
     opacity: 1;
     transition: transform 1s,box-shadow 0.5s,opacity 3s;
     letter-spacing: 0.30em;
-    margin-left: 6em ;
+    margin-left: 100em ;
 }
 .cerrar:hover{
     border:#08043f 0.3em double;
@@ -52,4 +52,38 @@ body{
     opacity: .7;
     box-shadow: 0px 0px .5em .5em #edf2f4;
     transform: translateX(-10em);
+}
+#cmb_tablas{
+    margin-left: 700px;
+    border:1px solid #3f0439;
+    background:#492a6069;
+    border-radius: 1em;
+    color:#edf2f4;
+    border:#08043f 0.3em solid;
+}
+.button{
+    border:1px solid #3f0439;
+    background:#6a56db5f;
+    border-radius: 1em;
+    color:#edf2f4;
+    border:#08043f 0.3em solid;
+    border-width: 100%;
+    padding: 1em 2em;
+    font-size: 78%;
+    opacity: 1;
+    transition: transform 1s,box-shadow 0.5s,opacity 3s;
+    letter-spacing: 0.30em;
+}
+.button:hover{
+    background: rgba(128, 52, 243, 0.548);
+}
+table{
+    margin-top: 100px;
+    margin-left: 670px;
+    font-weight: 400;
+    color: #edf2f4;
+}
+td,th,tr{
+    padding-top: 10px;
+    padding-left: 20px;
 }

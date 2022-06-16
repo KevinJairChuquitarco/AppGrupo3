@@ -13,29 +13,14 @@
     <link rel="stylesheet" type="text/css" href="styles2.css">
     <title>Home</title>
 </head>
-<body>
-    <h2>Bienvenido <?php echo $user->getNombre(); ?> </h2>
-    <a href="includes/logout.php">Cerrar sesión</a>
-    <br><br>
-    <form method="post">
-        <select id="cmb_tablas" name="cmb_tablas" >
-            <option value="seleccione">-- Seleccione --</option>
-            <option value="campus">Campus</option>
-            <option value="bar">Bares</option>
-            <option value="menu">Menús</option>
-            <option value="snack"> Snacks </option>
-            <option value="buzon"> Buzones </option>
-            <option value="preferencia"> Preferencias </option>
-        </select>
-        <input type="submit" name="btnBuscar"
-                class="button" value="Buscar" />
-    </form>
+<body class="B2">
+    
     <div>
-        <section class="login">
-            <div class="loginContainer">
-                <h1 class="titulo">Consultar Datos</h1>
-                <h2 class="titulo2">Bienvenido <?php //echo $user->getNombre(); ?> </h2>
-                <a class="cerrar"href="index.php">Cerrar sesión</a>
+        <section class="login2">
+            <div class="loginContainer2">
+                <h1 class="titulo3">Consultar Datos</h1>
+                <h2 class="titulo4">Bienvenido <?php echo $user->getNombre(); ?> </h2>
+                <a class="cerrar"href="includes/logout.php">Cerrar sesión</a>
                 <br><br><br><br><br><br>
                 <form method="post">
                     <select id="cmb_tablas" name="cmb_tablas" >
