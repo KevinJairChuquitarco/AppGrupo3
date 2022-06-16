@@ -10,7 +10,7 @@
     <title>Home</title>
 </head>
 <body>
-    <h2>Bienvenido <?php //echo $user->getNombre(); ?> </h2>
+    <h2>Bienvenido <?php echo $user->getNombre(); ?> </h2>
     <a href="includes/logout.php">Cerrar sesión</a>
     <br><br>
     <form method="post">
