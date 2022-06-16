@@ -21,8 +21,7 @@
     color:#010242;
     font-family: "Nunito", sans-serif;
     text-shadow:4px 4px 6px rgb(231, 231, 240)   ;
-    padding-left: 100px;
-    text-align: center;
+    margin-left: 500px;
 }
 .titulo4{
     font-size: 40px;
@@ -44,7 +43,7 @@
     opacity: 1;
     transition: transform 1s,box-shadow 0.5s,opacity 3s;
     letter-spacing: 0.30em;
-    margin-left: 100em ;
+    margin-left: 1000px ;
 }
 .cerrar:hover{
     border:#08043f 0.3em double;
@@ -54,7 +53,7 @@
     transform: translateX(-10em);
 }
 #cmb_tablas{
-    margin-left: 700px;
+    margin-left: 400px;
     border:1px solid #3f0439;
     background:#492a6069;
     border-radius: 1em;
@@ -79,7 +78,7 @@
 }
 table{
     margin-top: 100px;
-    margin-left: 670px;
+    margin-left: 400px;
     font-weight: 400;
     color: #edf2f4;
 }
