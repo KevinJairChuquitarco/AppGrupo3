@@ -1,5 +1,5 @@
 <?php 
-    include('../includes/db.php');
+    include_once ('includes/db.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <h2>Bienvenido <?php //echo $user->getNombre(); ?> </h2>
-    <a href="index.php">Cerrar sesión</a>
+    <a href="includes/logout.php">Cerrar sesión</a>
     <br><br>
     <form method="post">
         <select id="cmb_tablas" name="cmb_tablas" >
