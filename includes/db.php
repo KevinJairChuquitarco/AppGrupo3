@@ -18,7 +18,7 @@ class DB{
         try{
             
             $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db;
-            $pdo = new PDO($connection, $this->user, $this->password);
+            $pdo = mysqli_connect($this->host,$this->user,$this->password,$this->db);
     
             return $pdo;
 
