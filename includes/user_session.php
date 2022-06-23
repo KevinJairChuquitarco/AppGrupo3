@@ -2,7 +2,7 @@
     
     class UserSession{
     
-        public function __construct(){
+        public function _construct(){
             session_start();
         }
         public function setCurrentUser($user){
