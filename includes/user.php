@@ -6,7 +6,7 @@
 
         public function userExists($user, $pass){
             $query = $this->connect()->prepare('SELECT *FROM usuarios WHERE usu_name= :user and usu_password= :pass');
-            $query->execute(['user'=> $user, 'pass'=>$pass]);
+            $query->execute(['user'=> $user, 'pass'=> md5($pass)]);
             if ($query->rowCount()) {
                 return true;
             }else {

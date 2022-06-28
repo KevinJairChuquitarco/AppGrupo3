@@ -16,7 +16,6 @@ class DB{
     function connect(){
     
         try{
-            
             $connection = "mysql:host=" . $this->host . ";dbname=" . $this->db;
             $pdo = new PDO($connection, $this->user, $this->password);
             return $pdo;
